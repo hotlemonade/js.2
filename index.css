@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white; text-decoration: none;
+}
+
+
+header {
+    height: 100px;
+    background-color: rgba(0,0,0,0.5); position: fixed; top: 0; 
+    width: 100%;
+    transition-duration: 0.5s;
+    
+    
+}
+
+header.over {
+    background-color: white;
+}
+
+header.over h1 a {
+    color: black;
+   
+}
+
+
+
+#logo {
+    margin-left: 70px;
+    margin-top: 32px;
+
+}
+
+section {
+    height: 100vh;
+    background-color: aqua;
+}
+
+section:nth-of-type(1) {
+    background-color: aquamarine;
+    background-image: url(japan.jpg);
+    
+    
+}
+
+section:nth-of-type(even) {
+    
+    background-image: url(japan2.jpg);
+    
+}
+
+footer {
+   text-align: center;
+    height: 200px;
+}
